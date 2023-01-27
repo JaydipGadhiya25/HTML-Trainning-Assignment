@@ -5,40 +5,330 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">    
+    <link rel="stylesheet" href="/css/dashboard.css">    
 </head>
 <body>
-    <div class="navbar">
-        <ol>
-            <div class="logo1">
-              <img src="/images/menu-bar.svg" alt="image not found">
-            </div>
-       </ol>
-        <ol>
-            <div class="logo2">
-               <img src="/images/logo.svg" alt="image not found">
-           </div>
-        </ol>
-        <ol>
-            <div class="logo3">
+    <div class="header">
+       <nav class="navbar">
+        <ul>
+            <li id="logo1">
+                <img src="/images/menu-bar.svg" alt="image not found">
+            </li>
+            <li id="logo2">
+                <img src="/images/logo.svg" alt="image not found">
+            </li>
+            <li id="logo3">
                 <img src="/images/search-icon.svg" alt="image not found">
-            </div>
-        </ol>
-        <ol>
-           search
-        </ol>
-        <ol>
-            <div class="logo4">
+            </li>
+            <li id="logo4">
+                search
+                
+            </li>
+            <li id="logo5">
                 <img src="/images/notification-icon.svg" alt="image not found">
-            </div>
-        </ol>
-        <ol>
-            <div class="logo5">
+            </li>
+            <li id="logo6">
+                <img src="/images/profile.png" alt="image not found">
+            </li>
+            <li id="logo7">
+                John Doe
+            </li>
+            <li id="logo8">
                 <img src="/images/downward-arrow.svg" alt="image not found">
-            </div>
-        </ol>
-        
+            </li>
+        </ul>
+       </nav>
     </div>
+    <div class="mainDashboardPage">
+        
+    <div class="sidebar">
+
+     <nav>
+        <ul id="ulclass">
+            <li class="nav-items" id="icon1">
+                
+                <img src="/images/dashboard-active.svg" alt=""> 
+                <a href="#" class="navbar-link" style="font-size: 19px;">dashboard</a>
+                
+             </li>
+            <li class="nav-items">
+                <img src="/images/graph-default.svg" alt="">
+                <a href="#" class="navbar-link">Analysis</a>
+               
+            </li>
+            <li class="nav-items">
+                <img src="/images/inbox-default.svg" alt="">
+                <a href="#" class="navbar-link">Inbox</a>
+                
+            </li>
+            <li class="nav-items">
+                <img src="/images/clock-default.svg" alt="">
+                <a href="#" class="navbar-link">History</a>
+                
+            </li>
+            <li class="nav-items">
+                <img src="/images/user-default.svg" alt="">
+                <a href="#" class="navbar-link">Users</a>
+               
+            </li>
+            <li class="nav-items">
+                <img src="/images/maintenance-default.svg" alt="">
+                <a href="#" class="navbar-link">Maintenance</a>
+               
+            </li>
+            <li class="nav-items">
+                <img src="/images/setting-default.svg" alt="">
+                <a href="#" class="navbar-link">Settings</a>
+                
+            </li>
+
+        </ul>
+    </nav>
+    </div>
+    <div class="dashboard">
+        <div class="dashboardHeader">
+           <p>Dashboard</p>
+        </div>
+     <div class="maintitleContainer">
+        <div class="titleContainer">
+             <img src="/images/star.svg" alt="">
+            
+                <div class="bigheader">
+                    
+                    <p class="number">23,456</p>
+                    <div class="smallheader">
+                        <p>New Products</p>
+                       
+                    </div>
+                </div>
+            
+        </div>
+
+        <div class="titleContainer">
+            <img src="/images/new-product.svg" alt="">
+           
+               <div class="bigheader">
+            
+                <p class="number">2345</p>
+                   <div class="smallheader">
+                     
+                      <p> Added products</p>
+                      
+                   </div>
+               </div>
+           
+       </div>
+
+       <div class="titleContainer">
+        <img src="/images/total-product.svg" alt="">
+       
+           <div class="bigheader">
+
+           <p class="number">32,456</p>
+               <div class="smallheader">
+                 <p> Total products</p>
+               </div>
+           </div>
+       
+     </div>
+
+     <div class="titleContainer">
+      <img src="/images/dollar-filled.svg" alt="">
+   
+       <div class="bigheader">
+    
+        <p class="number">5678</p>
+           <div class="smallheader">
+              <p>Today's sales</p>
+           </div>
+       </div>
+   
+      </div>
+
+     <div class="titleContainer">
+     <img src="/images/money-bag.svg" alt="">
+   
+      <div class="bigheader">
+    
+         <p class="number">33,5342</p>
+           <div class="smallheader">
+              <p>Total sale</p>
+           </div>
+       </div>
+   
+     </div>
+
+
+       </div>
+
+    <div class="mainSection">
+        <div class="saleSection">
+
+            <div class="salegraph">
+                <div class="titlebarofgraph">
+                   <div class="navofsalegraph">
+                        <h2 style="font-weight: bold;">Sale</h2>  
+                    </div>
+                    <div class="navitemsofgraph">
+                        <button class="mybtn">Weekly</button>
+                        <button class="mybtn">Monthly</button>
+                        <button class="mybtn">Yearly</button>
+                    </div>
+                </div>
+                <div class="datagraphimg">
+                    <img src="/images/data-graph.png" alt="">
+                </div>
+            </div>   
+         
+            
+            <div class="salebycountry">
+            <h2>Sales by country</h2>
+            <div class="piechartimg">
+                <img src="/images/pie-chart.svg" alt="">
+            </div>
+            <ul>
+                <li>
+
+                </li>
+            </ul>
+            </div>
+  
+          
+            
+        </div>
+     <div class="invoicesSection">
+        <div class="invoicenavbar">
+            <h2>Invoices</h2>
+            <div id="viewallbtn">
+            <button>view all</button>
+        </div>
+        </div>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Invoice</th>
+                <th scope="col">Company Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Due Date</th>
+                <th scope="col">Status</th>
+                <th scope="col">Amount</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>651535</td>
+                <td>Public Adjusting Firm</td>
+                <td>georgia.young@example.com</td>
+                <td>24 May, 2020</td>
+                <td>
+                  <span class="status">Paid</span>
+                </td>
+                <td>$47,800</td>
+              </tr>
+              
+              <tr>
+                <td>558612</td>
+                <td>Other</td>
+                <td>jessica.hanson@example.com</td>
+                <td>24 May, 2020</td>
+                <td>
+                  <span class="status">Paid</span>
+                </td>
+                <td>$98,000</td>
+              </tr>
+
+              <tr>
+                <td>558612</td>
+                <td>Vendor</td>
+                <td>alma.lawson@example.com</td>
+                <td>8 Sep, 2020</td>
+                <td>
+                  <span class="status">Paid</span>
+                </td>
+                <td>$20,900</td>
+              </tr>
+
+              <tr>
+                <td>558612</td>
+                <td>Property Management Company</td>
+                <td>kenzi.lawson@example.com</td>
+                <td>22 Oct, 2020</td>
+                <td>
+                  <span class="status">Paid</span>
+                </td>
+                <td>$10,570</td>
+              </tr>
+
+              <tr>
+                <td>651535</td>
+                <td>Subcontractor Company</td>
+                <td>jackson.graham@example.com</td>
+                <td>1 Feb, 2020</td>
+                <td>
+                  <span class="status">Failed</span>
+                </td>
+                <td>$10,200</td>
+              </tr>
+
+              <tr>
+                <td>651518</td>
+                <td>Mortgage Company</td>
+                <td>felicia.reid@example.com</td>
+                <td>22 Oct, 2020</td>
+                <td>
+                  <span class="status">Pending</span>
+                </td>
+                <td>$12,600</td>
+              </tr>
+
+              <tr>
+                <td>487441</td>
+                <td>TPA</td>
+                <td>dolores.chambers@example.com</td>
+                <td>21 Sep, 2020</td>
+                <td>
+                  <span class="status">Paid</span>
+                </td>
+                <td>$11,170</td>
+              </tr>
+
+              <tr>
+                <td>267400</td>
+                <td>Fire Department</td>
+                <td>nevaeh.simmons@example.com</td>
+                <td>17 Oct, 2020</td>
+                <td>
+                  <span class="status">Failed</span>
+                </td>
+                <td>$28,000</td>
+              </tr>
+
+              <tr>
+                <td>449003</td>
+                <td>Insurance Carrier</td>
+                <td>curtis.weaver@example.com</td>
+                <td>21 Sep, 2020</td>
+                <td>
+                  <span class="status paid">Paid</span>
+                </td>
+                <td>$10,000</td>
+              </tr>
+            </tbody>
+
+          </table>
+
+        
+
+     </div>
+    </div>
+
+
+
+
+    
+</div>
+    
     
 </body>
 </html>

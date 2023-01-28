@@ -1,0 +1,476 @@
+.Analysispage{
+    top: 0px;
+    left: 0px;
+    width: 1560px;
+    height: 1970px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.analysispagetitle h2{
+font-size: 30px;
+font-weight: bold;
+margin-top: 42.29px;
+}
+.onecolumn{
+    padding: 5px;
+}
+.onecolumn p{
+    top: 205px;
+left: 321px;
+width: 121px;
+height: 29px;
+/* UI Properties */
+text-align: left;
+font: normal normal medium 22px/29px Roboto;
+letter-spacing: 0px;
+color: #3E3E3E;
+opacity: 1;
+font-size: 22px;
+margin-top: 50px;
+padding: 5px;
+font-weight: bold;
+
+}
+.nameinput{
+    padding: 10px;
+}
+.dropdown{
+    padding: 10px;
+}
+.multilineinput{
+    padding: 10px;
+}
+.nameinput input{
+    top: 249px;
+left: 323px;
+width: 1157px;
+height: 49px;
+/* UI Properties */
+border: 1px solid #ADADAD;
+border-radius: 5px;
+opacity: 1;
+
+}
+.dropdown select{
+    top: 319px;
+left: 323px;
+width: 1164px;
+height: 49px;
+/* UI Properties */
+border: 1px solid #ADADAD;
+border-radius: 5px;
+opacity: 1;
+padding: 1px;
+}
+.multilineinput textarea{
+    top: 388px;
+left: 323px;
+width: 1157px;
+height: 130px;
+/* UI Properties */
+border: 1px solid #ADADAD;
+border-radius: 5px;
+opacity: 1;
+}
+
+.twocolumn p{
+    top: 205px;
+left: 321px;
+width: 150px;
+height: 29px;
+/* UI Properties */
+text-align: left;
+font: normal normal medium 22px/29px Roboto;
+letter-spacing: 0px;
+color: #3E3E3E;
+opacity: 1;
+font-size: 22px;
+margin-top: 50px;
+padding: 5px;
+font-weight: bold;
+
+}
+
+.twocolumncontainer{
+
+    height: 118px;
+    width: 1157px;
+    display: grid;
+    grid-template-columns: 588px 700px;
+    row-gap: 19px;
+    
+    
+
+}
+.twocolumncontainer input{
+    top: 607px;
+left: 323px;
+width: 563px;
+height: 49px;
+/* UI Properties */
+border: 1px solid #ADADAD;
+border-radius: 5px;
+opacity: 1;
+}
+.twocolumncontainer select{
+    top: 607px;
+    left: 323px;
+    width: 563px;
+    height: 49px;
+    /* UI Properties */
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+
+.threecolumn p{
+    top: 205px;
+left: 321px;
+width: 150px;
+height: 29px;
+/* UI Properties */
+text-align: left;
+font: normal normal medium 22px/29px Roboto;
+letter-spacing: 0px;
+color: #3E3E3E;
+opacity: 1;
+font-size: 22px;
+margin-top: 50px;
+padding: 5px;
+font-weight: bold;
+
+}
+
+.threecolumncontainer{
+
+    height: 49px;
+    width: 1157px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    row-gap: 19px;
+
+}
+
+.threecolumncontainer #firstipbox input{
+    top: 816px;
+left: 323px;
+width: 364px;
+height: 47px;
+/* UI Properties */
+border: 1px solid #C8242F;
+border-radius: 5px;
+opacity: 1;
+}
+.threecolumncontainer input{
+    top: 814px;
+left: 719px;
+width: 365px;
+height: 49px;
+/* UI Properties */
+border: 1px solid #ADADAD;
+border-radius: 5px;
+opacity: 1;
+}
+
+.fourcolumncontainer{
+    height: 49px;
+    width: 1157px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    row-gap: 19px;
+}
+
+.fourcolumn p{
+    top: 205px;
+left: 321px;
+width: 150px;
+height: 29px;
+/* UI Properties */
+text-align: left;
+font: normal normal medium 22px/29px Roboto;
+letter-spacing: 0px;
+color: #3E3E3E;
+opacity: 1;
+font-size: 22px;
+margin-top: 50px;
+padding: 5px;
+font-weight: bold;
+
+}
+.fourcolumncontainer #fourthipbox select{
+    top: 957px;
+    left: 620px;
+    width: 266px;
+    height: 49px;
+    /* UI Properties */
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    opacity: 1;
+}
+.fourcolumncontainer #firstipbox input{
+    top: 959px;
+left: 323px;
+width: 266px;
+height: 47px;
+/* UI Properties */
+border: 1px solid #FF3C3C;
+border-radius: 5px;
+opacity: 1;
+}
+.fourcolumncontainer input{
+    top: 957px;
+left: 620px;
+width: 266px;
+height: 49px;
+/* UI Properties */
+border: 1px solid #ADADAD;
+border-radius: 5px;
+opacity: 1;
+}
+
+.otherelement p{
+    top: 1075px;
+    left: 321px;
+    width: 225px;
+    height: 29px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 22px/29px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+    font-size: 22px;    
+    font-weight: bold;
+
+}
+
+.otherelement p2{
+    top: 1125px;
+left: 321px;
+width: 90px;
+height: 24px;
+/* UI Properties */
+text-align: left;
+font: normal normal medium 18px/24px Roboto;
+letter-spacing: 0px;
+color: #3E3E3E;
+opacity: 1;
+font-size: 18px;
+font-weight: bold;
+}
+
+.uploadbtn{
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.uploadstatus{
+    margin-left: 15px;
+}
+
+.uploadbtn button{
+    background-color: transparent;
+    border-style: none;
+    border: 1px solid #C8242F;
+    top: 1165px;
+left: 322px;
+width: 124px;
+height: 36px;
+/* UI Properties */
+border: 1px solid #C8242F;
+border-radius: 18px;
+opacity: 1;
+}
+
+.btncontent{
+    display: flex;
+    align-items: center;
+    margin-left: 19px;
+    
+}
+
+.radiobtn p{
+    top: 1237px;
+left: 321px;
+width: 104px;
+height: 24px;
+/* UI Properties */
+text-align: left;
+font: normal normal medium 18px/24px Roboto;
+letter-spacing: 0px;
+color: #3E3E3E;
+opacity: 1;
+font-size: 18px;
+font-weight: bold;
+}
+
+.checkbox p{
+    top: 1325px;
+left: 321px;
+width: 79px;
+height: 24px;
+/* UI Properties */
+text-align: left;
+font: normal normal medium 18px/24px Roboto;
+letter-spacing: 0px;
+color: #3E3E3E;
+opacity: 1;
+font-size: 18px;
+font-weight: bold;
+}
+
+.snackbarcontainer {
+    display: grid;
+    height: 118px;
+    width: 1157px;
+    grid-template-columns: 588px 700px;
+    row-gap: 19px;
+}
+
+.snackbar h2{
+    top: 1416px;
+left: 321px;
+width: 76px;
+height: 24px;
+/* UI Properties */
+text-align: left;
+font: normal normal medium 18px/24px Roboto;
+letter-spacing: 0px;
+color: #3E3E3E;
+opacity: 1;
+font-size:22px;
+font-weight: bold;
+}
+.snackbar .firstbox{
+height: 49px;
+width: 563px;
+display: flex;
+align-items: center;
+border:1px solid #FF3535;
+margin-left: 5x;
+
+}
+
+.snackbar .secondbox{
+    height: 49px;
+    width: 563px;
+    display: flex;
+    align-items: center;
+    border:1px solid #00B9E1;
+    margin-left: 5x;
+    
+    }
+
+    .snackbar .thirdbox{
+        height: 49px;
+        width: 563px;
+        display: flex;
+        align-items: center;
+        border:1px solid #FFA800;
+        margin-left: 5x;
+        
+        }
+
+        .snackbar .fourthbox{
+            height: 49px;
+            width: 563px;
+            display: flex;
+            align-items: center;
+            border:1px solid #00AF27 ;
+            margin-left: 5x;
+            
+            }
+.firstbox img{
+    height: 20px;
+    margin-left: 5px;
+}
+.secondbox img{
+    height: 20px;
+}
+.thirdbox img{
+    height: 20px;
+}
+.fourthbox img{
+    height: 20px;
+}
+
+.calltoaction p{
+    top: 1603px;
+left: 321px;
+width: 150px;
+height: 24px;
+text-align: left;
+font: normal normal medium 18px/24px Roboto;
+letter-spacing: 0px;
+color: #3E3E3E;
+opacity: 1;
+font-weight: bold;
+font-size: 22px;
+}
+
+.actionbtn{
+    display: flex;
+    align-items: center;
+    
+}
+.firstbtn{
+    margin: 7px;
+    height: 45px;
+    width: 124px;
+    background: #C8242F 0% 0% no-repeat padding-box;
+border-radius: 23px;
+}
+.secondbtn{
+    margin: 7px;
+    height: 44px;
+    width: 145px;
+    border: 1px solid #C8242F;
+border-radius: 22px;
+}
+.actionbtn button{
+    border-style: none;
+    background-color: transparent;
+    top: 1652px;
+left: 352px;
+width: 63px;
+height: 24px;
+/* UI Properties */
+text-align: left;
+font: normal normal medium 18px/24px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+padding: 13px;
+font-weight: bold;
+}
+
+.tabs p{
+    top: 1722px;
+left: 321px;
+width: 39px;
+height: 24px;
+text-align: left;
+font: normal normal medium 18px/24px Roboto;
+letter-spacing: 0px;
+color: #3E3E3E;
+opacity: 1;
+font-size: 22px;
+font-weight: bold;
+}
+
+.tab{
+    display: flex;
+    font-size:20px ;
+    justify-content: space-between;
+    width: 200px;
+}
+#tab-1{
+    color: #C8242F;
+    
+}
+.para p{
+    font-size: 15px;
+}

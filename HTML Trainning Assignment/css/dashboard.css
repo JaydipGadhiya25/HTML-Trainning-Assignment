@@ -277,12 +277,13 @@ opacity: 1;
   width: 802px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
 }
-.salabycountry{
-
+.salegraph img{
+  width: 802px;
 }
-.invoicesSection{
 
-height: 558px;
+#yearly{
+  color: red;
+  border-bottom: 1px solid red;
 }
 .mybtn{
     padding: 18px;
@@ -302,8 +303,64 @@ height: 558px;
 
 .salebycountry{
     
-    height: 52px;
+    height: 52x;
     margin-left: 95PX;
+    width: 385px;
+}
+.rowcontainer{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: -60px;
+
+  
+}
+/*.firstrow{
+  margin: 36px;
+  padding: 5px;
+}*/
+.secondrow{
+  margin: 5px;
+  padding: 5px;
+}
+ul li{
+  list-style: none;
+}
+
+.usa-circle{
+  height: 14px;
+  width: 14px;
+  background-color:#C8242F;
+  border-radius: 100%;
+  
+}
+.russia-circle{
+  height: 14px;
+  width: 14px;
+  background-color:#F16C20;
+  border-radius: 100%;
+  
+}
+.india-circle{
+  height: 14px;
+  width: 14px;
+  background-color:#EBC844;
+  border-radius: 100%;
+  
+}
+.canada-circle{
+  height: 14px;
+  width: 14px;
+  background-color:#A2B86C;
+  border-radius: 100%;
+  
+}
+.item{
+  display: flex;
+  padding: 9px;
+  align-items: center;
+  padding-left: 5px;
+  justify-content: space-betweens;
 }
 .invoicenavbar{
     display: flex;
@@ -325,6 +382,8 @@ height: 558px;
     padding: 5px;
     margin: 15px;
     margin: 15px;
+    width: 360px;
+    height: 43px;
 }
 .table th{
     padding-bottom: 14px;
@@ -336,6 +395,23 @@ height: 558px;
     color: #ADADAD;
     padding: 15px;
     margin: 15px;
+   
+    
+}
+.table tr th{
+  width: 50px;
+}
+.table th{
+  top: 846px;
+left: 762px;
+width: 50px;
+height: 20px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 15px/20px Roboto;
+letter-spacing: 1.5px;
+color:  ;
+opacity: 1;
 }
 .table td{
     padding-top: 12px;
@@ -344,10 +420,41 @@ height: 558px;
     line-height: 20px;
     color: #3E3E3E;
     padding: 5px;
+    width: 340px;
+    height: 2px;
 }
 .table .status{
     padding: 3px 10px;
     border-radius: 5px;
     background-color: #EBFFEF;
     color: #3CDD5F;
+}
+.table .statuspending{
+  top: 1128px;
+left: 1202px;
+width: 54px;
+height: 20px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 15px/20px Roboto;
+letter-spacing: 0px;
+color: #BABABA;
+opacity: 1;
+}
+.table .statusfailed{
+  top: 1081px;
+left: 1202px;
+width: 40px;
+height: 20px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 15px/20px Roboto;
+letter-spacing: 0px;
+color: #FF4545;
+opacity: 1;
+}
+
+th,td{
+  border-bottom: 1px solid #ADADAD;
+  
 }

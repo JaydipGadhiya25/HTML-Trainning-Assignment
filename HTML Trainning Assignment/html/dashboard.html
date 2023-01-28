@@ -172,7 +172,7 @@
                     <div class="navitemsofgraph">
                         <button class="mybtn">Weekly</button>
                         <button class="mybtn">Monthly</button>
-                        <button class="mybtn">Yearly</button>
+                        <button class="mybtn" id="yearly">Yearly</button>
                     </div>
                 </div>
                 <div class="datagraphimg">
@@ -187,10 +187,31 @@
                 <img src="/images/pie-chart.svg" alt="">
             </div>
             <ul>
-                <li>
+              <div class="rowcontainer">
+                <div class="firstrow">
 
-                </li>
-            </ul>
+                  <div class="item">
+                 <div class="usa-circle"></div>
+                   <li>united state of america</li>
+                  </div>
+
+                  <div class="item">
+                   <div class="russia-circle"></div>
+                 <li>Russia</li>
+                </div>
+                </div>
+                <div class="secondrow">
+                  <div class="item">
+                  <div class="canada-circle"></div>
+                  <li>Canada</li>
+                </div>
+                  <div class="item">
+                  <div class="india-circle"></div>
+                  <li>India</li>
+                </div>
+                </div>
+              </div>
+          </ul>
             </div>
   
           
@@ -266,7 +287,7 @@
                 <td>jackson.graham@example.com</td>
                 <td>1 Feb, 2020</td>
                 <td>
-                  <span class="status">Failed</span>
+                  <span class="statusfailed">Failed</span>
                 </td>
                 <td>$10,200</td>
               </tr>
@@ -277,7 +298,7 @@
                 <td>felicia.reid@example.com</td>
                 <td>22 Oct, 2020</td>
                 <td>
-                  <span class="status">Pending</span>
+                  <span class="statuspending">Pending</span>
                 </td>
                 <td>$12,600</td>
               </tr>
@@ -299,7 +320,7 @@
                 <td>nevaeh.simmons@example.com</td>
                 <td>17 Oct, 2020</td>
                 <td>
-                  <span class="status">Failed</span>
+                  <span class="statusfailed">Failed</span>
                 </td>
                 <td>$28,000</td>
               </tr>
@@ -310,7 +331,7 @@
                 <td>curtis.weaver@example.com</td>
                 <td>21 Sep, 2020</td>
                 <td>
-                  <span class="status paid">Paid</span>
+                  <span class="status">Paid</span>
                 </td>
                 <td>$10,000</td>
               </tr>

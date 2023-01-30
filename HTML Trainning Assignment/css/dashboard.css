@@ -3,10 +3,12 @@
     justify-content: space-between;
 }
 .navbar{
+  display: flex;
+  align-items: center;
     top: 0px;
     left: 0px;
     background-size: cover;
-    width: 5px;
+    width: 1590px;
     height: 80px;
     /* UI Properties */
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -47,9 +49,12 @@ padding-left: 76.67px;
 margin-left: 290.67;
 
   }
-#logo4{
+  
+#logo4 input{
+  border-style: none;
+  background-color: transparent;
     height: 21px;
-    width: 49px;
+    width: 80px;
     padding-left: 14.74px;
     color: black;
     padding-top: 4px;
@@ -458,3 +463,54 @@ th,td{
   border-bottom: 1px solid #ADADAD;
   
 }
+
+@media  only screen and (min-width:960px) and (max-width:1449px) {
+  .mainContainer{
+      display: flex;
+      
+      justify-content: center;
+      align-items: center;
+      
+  }
+}
+@media  only screen and (min-width:640px) and (max-width:959px) {
+  .mainContainer{
+      display: flex;    
+      justify-content: center;
+      align-items: center;
+      
+  }
+}
+@media  only screen and (min-width:360px) and (max-width:640px) {
+  .mainContainer{
+      display: flex;
+      flex-direction: column;
+      
+      justify-content: center;
+      align-items: center;
+      
+  }
+}
+@media  only screen and (min-width:0px) and (max-width:339px) {
+  .mainContainer{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+  }
+  .imageSection img{
+      height: 445px;
+      width: 445px;
+      
+  }
+  .userDetailsSection{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      display: block;
+  }
+
+}
+
+

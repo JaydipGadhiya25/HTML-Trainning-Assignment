@@ -181,6 +181,12 @@ opacity: 1;
     row-gap: 19px;
 }
 
+#firstipbox lable{
+    position: relative;
+    
+    top: -59px;
+    color: #120202;
+}
 .fourcolumn p{
     top: 205px;
 left: 321px;
@@ -198,6 +204,8 @@ padding: 5px;
 font-weight: bold;
 
 }
+
+
 .fourcolumncontainer #fourthipbox select{
     top: 957px;
     left: 620px;
@@ -228,6 +236,7 @@ border: 1px solid #ADADAD;
 border-radius: 5px;
 opacity: 1;
 }
+
 
 .otherelement p{
     top: 1075px;
@@ -474,3 +483,4 @@ font-weight: bold;
 .para p{
     font-size: 15px;
 }
+

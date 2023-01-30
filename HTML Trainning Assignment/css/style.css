@@ -2,7 +2,7 @@ body{
     top: 0px;
 left: 0px;
 width: 1560px;
-height: 720px;
+height: 720px;;
 background: #FAFAFA 0% 0% no-repeat padding-box;
 opacity: 1;
 }
@@ -11,6 +11,7 @@ opacity: 1;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+    height: 100vh;
 }
 .imageSection{
     justify-content: center;
@@ -20,7 +21,7 @@ opacity: 1;
 .imageSection img{
   
   height: 576px;
-  height: 576px;
+  
   top: 72px;
   left: 166px;
   border: 20px solid #FFFFFF;
@@ -43,25 +44,25 @@ opacity: 1;
     width: 500px;
 }
 .mainHeader p{
-    font-size: 40px;
+    font-size:40px;
     top: 183px;
     left: 905px;
     width: 500px;
     height: 100px;
 }
-#specialText{
+/*#specialText{
   color: #C8242F;
   top: 183px;
 left: 1036px;
 width: 137px;
 height: 53px;
-/* UI Properties */
+
 text-align: left;
 font: normal normal 900 40px/53px Roboto;
 letter-spacing: 0px;
 color: #C8242F;
 opacity: 1;
-}
+}*/
 .smallHeader p{
     top: 315px;
 left: 904px;
@@ -73,6 +74,7 @@ font: normal normal normal 25px/33px Roboto;
 letter-spacing: 0px;
 color: #3E3E3E;
 opacity: 1;
+font-size: 25px;
 
 }
 .username{
@@ -217,4 +219,131 @@ opacity: 1;
 }
 
 
-/*  Dashboard css */
+/*   Responsive css  */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width:360px)  and (max-width: 600px){
+    body{
+        
+        
+    }
+    .mainContainer{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-1{
+        width: 360px;
+        display: block;
+    }
+    .section-1 .imageSection img{
+        height: 1000px;
+        width: 1000px;
+    }
+    .logo img{
+        height:168px;
+        width: 680px;
+    }
+    .mainHeader p{
+        font-size:60px;
+        width: 700px;
+        height: 150px;
+
+    }
+    .smallHeader p{
+        width: 380px;
+        height: 40px;
+        font-size: 35px;
+    }
+    .username input{
+        width: 613px;
+        height: 86px;
+    }
+    .password input{
+        width: 613px;
+        height: 86px;
+    }
+    .btn button{
+        width: 186px;
+        height: 55px;
+        border-radius: 30px;
+    }
+    .newMember p{
+        width: 211px;
+        height: 20px;
+        font-size: 21px;
+    }
+ #registerhere {
+        font: normal normal normal 21px/20px Roboto;
+    }
+    
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  
+  @media only screen and (min-width: 600px) and (max-width: 767px) {
+    body{
+        background-color: aqua;
+    }
+    .mainContainer{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   
+
+    
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px){
+    body{
+        background-color: orange;
+    }
+    .mainContainer{
+        height: fit-content;
+        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  
+  @media only screen and (min-width: 992px)and (max-width: 1199px) {
+    body{
+        background-color: blue;
+    }
+    .mainContainer{
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px)and (max-width: 1720px) {
+    body{
+        background-color: pink;
+    }
+    .mainContainer{
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+  
+    
+  }
+

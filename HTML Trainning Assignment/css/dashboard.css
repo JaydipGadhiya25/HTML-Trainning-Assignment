@@ -1,94 +1,74 @@
 .header{
     display: flex;
     justify-content: space-between;
+    position: relative;
+    
+    
 }
 .navbar{
   display: flex;
-  align-items: center;
-    top: 0px;
-    left: 0px;
-    background-size: cover;
-    width: 1590px;
-    height: 80px;
-    /* UI Properties */
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-
-    opacity: 1;
-    margin: 0px;
-    padding: 0px;
-   
-  }
-  .navbar ul{
-    overflow: auto;
-    width: 1560px;
-   
-  }
-  .navbar li{
-    float: left;
-    list-style: none;
-    padding: 4px 4px;
-    margin: 3px 3pxs;
-    
-  }
-
-  #logo1{
-    width: 18px;
-height: 12px;
-margin-left: 19px;
-
-  }
-  #logo2 img{
-    width: 142px;
-    height: 30px;
-   margin-left: 32px;
-  }
-  #logo3 img{
-    width: 26px;
-height: 32px;
-padding-left: 76.67px;
-margin-left: 290.67;
-
-  }
+  width: 1560px;
+  position: relative;
   
-#logo4 input{
-  border-style: none;
-  background-color: transparent;
-    height: 21px;
-    width: 80px;
-    padding-left: 14.74px;
-    color: black;
-    padding-top: 4px;
-    font-size: 25px;
-  }
-  #logo5 img{
-    width: 41.06px;
-height: 29.52px;
-padding-left: 824.2px;
-top: 28.28px;
-  }
-  #logo6 img{
-    height: 44px;
-    width: 44px;
-    padding-left: 52.28px;
-    top: 18px;
-  }
-  #logo7{
-    height: 21px;
-    width: 82px;
-    padding-left: 12px;
-    padding-top: 10px;
-    font-size: 20px;
-    top: 27.97px;
-  }
-  #logo8 {
-    height: 5.84px;
-    width: 9.93px;
-    padding-left: 14.54px;
-    top: 37.5px;
-    
-  }
+}
+.menubar{
+  padding-left: 56px;
+}
+.menubar img{
+  padding: 9px;
+  
+}
 
-  /*   sidebar and maindashboard */
+
+
+.searchbar{
+  display: flex;
+  padding-left: 50px;
+  
+}
+.searchbar img{
+  height: 30px;
+  width: 30px;
+}
+.searchbar input{
+  border-style: none;
+  padding-left: 20px;
+}
+.navbarbtn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  
+}
+.navbarbtn img{
+  height: 30px;
+  width: 30px;
+}
+.navbarbtn button{
+  background-color: transparent;
+  
+  border-style: none;
+}
+.navbarbtn .profile{
+  padding-left: 65px;
+}
+.navbarbtn .username{
+  padding-left: 15px;
+}
+
+
+.navbarbtn .downarrow{
+  padding-left: 6px;
+  display: none;
+}
+.downarrow button{
+  
+  background-color: transparent;
+  border-style: none;
+  
+}
+
   
   .mainDashboardPage{
     display: flex;
@@ -217,14 +197,110 @@ font-size: 30px;
 margin-top: 35px;
 
 }
+.div-2li{
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.div-2li-div1{
+  background-color: #ffffff;
+  padding: 2rem;
+  float: left;
+  width: 70%;
+}
+
+.div-2li-p{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.div-2li-innerp1{
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+
+.div-2li-innerp2 span{
+  margin: 0.4rem;
+  font-size: 1.3rem;
+}
+
+.div-2li-active-span{
+  color: #C8242F;
+  text-decoration: underline;
+}
+
+.div-2li-div2{
+  width: 26%;
+  background-color: #ffffff;
+  float: right;
+  height: 100%;
+  padding: 1rem;
+}
+
+.div-2li-span{
+  font-size: 1.6rem;
+  margin: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+}
+
+.pi-col{
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+  clear:both;
+
+}
+
+.pi-col-1{
+  background-color: #C8242F;
+}
+
+.pi-col-2{
+  background-color: #A2B86C;
+}
+
+.pi-col-3{
+  background-color: #F16C20;
+}
+
+.pi-col-4{
+  background-color: #EBC844;
+}
+
+.pi-col-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pi-col-spacebet{
+  justify-content: space-between;
+}
+
+.pi-col-span{
+  margin: 1rem;
+}
+
+.pi-col-p{
+  font-size: 1.2rem;
+  margin: 0.3rem;
+}
+
 .maintitleContainer{
     display: flex;
-    width: 1330px;
+    flex-wrap: wrap;
+    width: 100%;
     justify-content: space-between;
 }
 .titleContainer{
+  border: 2px solid red;
     display: flex;
-    width: 219.4px;
+    width: 18.5%;
     height: 116px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     justify-content: center;
@@ -264,18 +340,19 @@ font: normal normal normal 15px/20px Roboto;
 letter-spacing: 0px;
 color: #3E3E3E;
 opacity: 1;
+padding-top: 17px;
 }
 
 
 
 .mainSection{
-    
     height: 958px;
     width: 1330px;
 }
 .saleSection{
     height: 400px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 900px 900px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
 }
 .saleSection .salegraph{
@@ -464,53 +541,176 @@ th,td{
   
 }
 
-@media  only screen and (min-width:960px) and (max-width:1449px) {
-  .mainContainer{
-      display: flex;
-      
-      justify-content: center;
-      align-items: center;
-      
+
+
+/*  Media query  */
+
+@media(max-width:900px){
+  .maintitleContainer{
+    display: flex;
+    flex-wrap: wrap;
+    
   }
-}
-@media  only screen and (min-width:640px) and (max-width:959px) {
-  .mainContainer{
-      display: flex;    
-      justify-content: center;
-      align-items: center;
-      
+  .div-2li-div1 img{
+    width: 100%;
   }
-}
-@media  only screen and (min-width:360px) and (max-width:640px) {
-  .mainContainer{
-      display: flex;
-      flex-direction: column;
-      
-      justify-content: center;
-      align-items: center;
-      
+  .div-2li{
+    display: block;
+    float: none;
+    clear: both;
+
   }
-}
-@media  only screen and (min-width:0px) and (max-width:339px) {
-  .mainContainer{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      
+  .div-2li-div1{
+    display: block;
+    width: 100%;
+    float: none;
   }
-  .imageSection img{
-      height: 445px;
-      width: 445px;
-      
+  .div-2li-div2{
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    float: none;
+
   }
-  .userDetailsSection{
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      display: block;
+  .div-2li-div2 img{
+    width: 10%;
+    display: block;
+    margin: auto;
+  }
+  .invoicesSection{
+    display: block;
   }
 
+  .invoicesSection th, .invoicesSection td{
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+
+    .navbarbtn{
+      display: none;
+    }
+    .navbarbtn .downarrow{
+      display: block;
+      position: relative;
+    
+    }
+    .navbar{
+      height: 100px;
+    }
+    .menubar img{
+      height: 100px;
+      width: 383px;
+    }
+    
+    .searchbar{
+      display: none;
+    }
+    .downarrow img{
+      height: 100px;
+      width: 200px;
+    }
+    .sidebar{
+      display: none;
+    }
+    .dashboard{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 205px;
+    }
+    .dashboardHeader{
+      display: flex;
+      justify-content: center;
+      
+    }
+    .dashboardHeader p{
+      font-size: 90px;
+      margin-top: 600px;
+    }
+    .maintitleContainer{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin-top:100px;
+      
+      
+      
+    }
+    .titleContainer{
+      padding: 100px;
+    }
+    .titleContainer img{
+      height: 100px;
+      width: 200px;
+      
+    }
+    .titleContainer .bigheader p{
+        font-size: 45px;
+    }
+    .titleContainer .smallheader p{
+       font-size: 35px;
+       padding-top: 50px;
+    }
+    .mainSection{
+      display: flex;
+      flex-direction: column;
+    }
+    .saleSection{
+      display: flex;
+      flex-direction: column;
+      height:816px;
+      width: 100%;
+    }
+    .saleSection .salegraph{
+      height: 200px;
+      width: 100%;
+    }
+    .saleSection .datagraphimg img{
+      width: 100%;
+    }
+    .table{
+      width: 100%;
+    }
+
+
+    
+
+}
+
+
+
+@media only screen and (min-width:600px)  and (max-width: 767px){
+  body{
+    
+  }
+}
+
+
+
+@media only screen and (min-width:768px)  and (max-width: 991px){
+  body{
+    
+  }
+}
+
+
+
+@media only screen and (min-width:992px)  and (max-width: 1199px){
+  body{
+    
+  }
+}
+
+
+
+@media only screen and (min-width:1200px)  and (max-width: 1720px){
+  body{
+    
+  }
 }
 
 

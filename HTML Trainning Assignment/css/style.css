@@ -13,14 +13,16 @@ opacity: 1;
     margin-top: 50px;
     height: 100vh;
 }
+
 .imageSection{
     justify-content: center;
     display: flex;
     
 }
 .imageSection img{
-  
+  position:fix;
   height: 576px;
+  width: 576px;
   
   top: 72px;
   left: 166px;
@@ -50,19 +52,7 @@ opacity: 1;
     width: 500px;
     height: 100px;
 }
-/*#specialText{
-  color: #C8242F;
-  top: 183px;
-left: 1036px;
-width: 137px;
-height: 53px;
 
-text-align: left;
-font: normal normal 900 40px/53px Roboto;
-letter-spacing: 0px;
-color: #C8242F;
-opacity: 1;
-}*/
 .smallHeader p{
     top: 315px;
 left: 904px;
@@ -190,6 +180,7 @@ opacity: 1;
 .newMember{
     display: flex;
     padding: 10px;
+    
 }
 .newMember p{
 
@@ -253,10 +244,20 @@ opacity: 1;
         height: 150px;
 
     }
+    .smallHeader{
+        padding: 2px;
+    }
     .smallHeader p{
         width: 380px;
         height: 40px;
         font-size: 35px;
+    }
+    .username{
+        padding: 2px;
+    }
+    .password{
+        padding: 2px;
+        margin: 10px;
     }
     .username input{
         width: 613px;
@@ -278,6 +279,7 @@ opacity: 1;
     }
  #registerhere {
         font: normal normal normal 21px/20px Roboto;
+        width: 200px;
     }
     
   }
@@ -286,7 +288,7 @@ opacity: 1;
   
   @media only screen and (min-width: 600px) and (max-width: 767px) {
     body{
-        background-color: aqua;
+        
     }
     .mainContainer{
         height: fit-content;
@@ -295,6 +297,54 @@ opacity: 1;
         justify-content: center;
         align-items: center;
     }
+    .section-1 .imageSection img{
+        width: 900px;
+        height: 900px;
+    }
+    .logo img{
+        height:168px;
+        width: 680px;
+    }
+    .mainHeader p{
+        font-size:60px;
+        width: 700px;
+        height: 150px;
+
+    }
+    .smallHeader{
+        padding: 2px;
+    }
+    .smallHeader p{
+        width: 380px;
+        height: 40px;
+        font-size: 35px;
+    }
+    .username input{
+        width: 613px;
+        height: 86px;
+    }
+    .password input{
+        width: 613px;
+        height: 86px;
+    }
+    .btn button{
+        width: 186px;
+        height: 55px;
+        border-radius: 30px;
+    }
+    .newMember{
+        width:800px;
+    }
+    .newMember p{
+        width: 211px;
+        height: 20px;
+        font-size: 21px;
+    }
+ #registerhere {
+        font: normal normal normal 21px/20px Roboto;
+        width: 200px;
+    }
+    
    
 
     
@@ -304,7 +354,8 @@ opacity: 1;
   
   @media only screen and (min-width: 768px) and (max-width: 991px){
     body{
-        background-color: orange;
+        
+        font-size: 35px;
     }
     .mainContainer{
         height: fit-content;
@@ -314,13 +365,19 @@ opacity: 1;
         justify-content: center;
         align-items: center;
     }
+    .section-1 .imageSection img{
+        width: 700px;
+        height: 700px;
+    }
+    
+
   } 
   
   /* Large devices (laptops/desktops, 992px and up) */
   
   @media only screen and (min-width: 992px)and (max-width: 1199px) {
     body{
-        background-color: blue;
+        
     }
     .mainContainer{
         height: fit-content;
@@ -334,7 +391,7 @@ opacity: 1;
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px)and (max-width: 1720px) {
     body{
-        background-color: pink;
+        
     }
     .mainContainer{
         height: fit-content;

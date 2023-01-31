@@ -5,40 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/dashboard.css">    
     <link rel="stylesheet" href="/css/innerpage.css">
+     <link rel="stylesheet" href="/css/bootstrap.min.css"> 
 </head>
 <body>
     <div class="header">
-       <nav class="navbar">
-        <ul>
-            <li id="logo1">
-                <img src="/images/menu-bar.svg" alt="image not found">
-            </li>
-            <li id="logo2">
-                <img src="/images/logo.svg" alt="image not found">
-            </li>
-            <li id="logo3">
-                <img src="/images/search-icon.svg" alt="image not found">
-            </li>
-            <li id="logo4">
-                search
-                
-            </li>
-            <li id="logo5">
-                <img src="/images/notification-icon.svg" alt="image not found">
-            </li>
-            <li id="logo6">
-                <img src="/images/profile.png" alt="image not found">
-            </li>
-            <li id="logo7">
-                John Doe
-            </li>
-            <li id="logo8">
-                <img src="/images/downward-arrow.svg" alt="image not found">
-            </li>
-        </ul>
-       </nav>
+        <header>
+        
+            <nav class="navbar">
+              <div class="menubar">
+                <img src="/images/menu-bar.svg" alt="">
+                <img src="/images/header-logo.svg" alt="">
+              </div>
+    
+              <div class="searchbar">
+                <img src="/images/search-icon.svg" alt="">
+                <form>
+                  <input type="search" class="search" placeholder="search">
+                </form>
+              </div>
+    
+              <div class="navbarbtn">
+                <div class="notificationicon">
+                  <button><img src="/images/notification-icon.svg" alt=""></button>
+                </div>
+           
+                <div class="profile">
+                  <img src="/images/profile.png" alt="">
+                </div>
+                <div class="username">John Doe</div>
+                </div>
+                <div class="downarrow">
+                  <button><img src="/images/downward-arrow.svg" alt=""></button>
+                </div>
+              </div>
+            </nav>
+          </header>
     </div>
     <div class="mainDashboardPage">
         
@@ -91,18 +93,18 @@
         <h2>Analysis
         </h2>
      </div>
-        <div class="onecolumn">
+        <div class="row">
             <p>One Column</p>
-            <div class="nameinput">
+            <div class="col-12 firstcolumn">
               <input type="text" class="name" placeholder="Name">
             </div>
-          <div class="dropdown">
+          <div class="col-12 firstcolumn">
               <select class="form-control">
                 <option>Default select</option>
               </select>
             
             </div>
-          <div class="multilineinput">
+          <div class="col-12 firstcolumn">
              <textarea name="text" id="multiline" cols="30" rows="10"></textarea>
           </div>
         </div>
@@ -110,18 +112,18 @@
 
         <div class="twocolumn">
          <p>Two Column</p>
-        <div class="twocolumncontainer">
-            <div class="inputbox" id="firstipbox">
+        <div class="row">
+            <div class="col-12 col-sm-6 secondcolumn" id="firstipbox">
                 <input type="text" name="name" id="name" placeholder="Name">
             </div>
-            <div class="inputbox" id="secondipbox">
+            <div class="col-12 col-sm-6 secondcolumn" id="secondipbox">
                 <input type="text" name="name" id="name" placeholder="Name">
             </div>
-            <div class="inputbox" id="thirdipbox">
+            <div class="col-12 col-sm-6 secondcolumn" id="thirdipbox">
                 
                 <input type="password" name="password" id="password" placeholder="Password">
             </div>
-            <div class="inputbox" id="fourthipbox">
+            <div class="col-12 col-sm-6 secondcolumn" id="fourthipbox">
                 <select class="form-control">
                     <option>dropdown</option>
                   </select>
@@ -134,16 +136,16 @@
         <div class="threecolumn">
             <p>Three Column</p>
 
-            <div class="threecolumncontainer">
+            <div class="row">
 
-                <div class="inputbox" id="firstipbox">
+                <div class="col-12 col-sm-6 col-md-4 threecolumn" id="firstipbox">
                     <input type="text" name="name" id="name" placeholder="Name">
                 </div>
-                <div class="inputbox" id="secondipbox">
+                <div class="col-12 col-sm-6 col-md-4 threecolumn" id="secondipbox">
                 
                     <input type="password" name="password" id="password" placeholder="Password">
                 </div>
-                <div class="inputbox" id="thirdipbox">
+                <div class="col-12 col-sm-6 col-md-4 threecolumn" id="thirdipbox">
                     <input type="text" name="name" id="name" placeholder="Name">
                 </div>
 
@@ -155,22 +157,22 @@
         <div class="fourcolumn">
             <p>Four Column</p>
 
-            <div class="fourcolumncontainer">
+            <div class="row">
                 
 
-                <div class="inputbox" id="firstipbox">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 fourcolumn" id="firstipbox">
                     <input type="" name="name" id="name" placeholder="Name" >
                     <lable>Name</lable>
                 </div>
-                <div class="inputbox" id="secondipbox">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 fourcolumn" id="secondipbox">
                 
                     <input type="password" name="password" id="password" placeholder="Password">
                 </div>
-                <div class="inputbox" id="thirdipbox">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 fourcolumn" id="thirdipbox">
                     <input type="text" name="name" id="name" placeholder="Name">
                 </div>
-                <div class="inputbox" id="fourthipbox">
-                    <select class="form-control">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 fourcolumn" id="fourthipbox">
+                    <select class="col-12 col-sm-6 col-md-4 col-lg-3">
                         <option>Select</option>
                       </select>
                 </div>
@@ -214,24 +216,24 @@
         </div>
 
 
-        <div class="snackbar">
+        <div class="snackbarContainer">
 
             <h2>snackbar</h2>
-            <div class="snackbarcontainer">
+            <div class="row snackbarwraper">
 
-                <div class="firstbox">
+                <div class="col-12 col-sm-6 snackbar">
                     <img src="/images/error-icon.svg" alt="">
                     <p style="color: #FF3535;">This is an error message</p>
                 </div>
-                <div class="secondbox">
+                <div class="col-12 col-sm-6 snackbar">
                     <img src="/images/info-icon.svg" alt="">
                     <p style="color: #00B9E1;">This is an information message</p>
                 </div>
-                <div class="thirdbox">
+                <div class="col-12 col-sm-6 snackbar">
                     <img src="/images/warning-icon.svg" alt="">
                     <p style="color: #FFA800;">This is a warning message</p>
                 </div>
-                <div class="fourthbox">
+                <div class="col-12 col-sm-6 snackbar">
                     <img src="/images/success-icon.svg" alt="">
                     <p style="color: #00AF27;">This is a success message</p>
                 </div>

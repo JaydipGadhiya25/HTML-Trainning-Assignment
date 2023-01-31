@@ -5,42 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/dashboard.css">    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">   
+    <link rel="stylesheet" href="/css/dashboard.css"> 
 </head>
 <body>
+  <div class="container-fluid px-0">
     <div class="header">
-       <nav class="navbar">
-        <ul>
-            <li id="logo1">
-                <img src="/images/menu-bar.svg" alt="image not found">
-            </li>
-            <li id="logo2">
-                <img src="/images/logo.svg" alt="image not found">
-            </li>
-            <div class="searchbar">
-              <li id="logo3">
-                <img src="/images/search-icon.svg" alt="image not found">
-            </li>
-            <li id="logo4">
-                <input type="text" name="search" placeholder="search">
-                
-            </li>
+     <header>
+        
+        <nav class="navbar">
+          <div class="menubar">
+            <img src="/images/menu-bar.svg" alt="">
+            <img src="/images/header-logo.svg" alt="">
+          </div>
+
+          <div class="searchbar">
+            <img src="/images/search-icon.svg" alt="">
+            <form>
+              <input type="search" class="search" placeholder="search">
+            </form>
+          </div>
+
+          <div class="navbarbtn">
+            <div class="notificationicon">
+              <button><img src="/images/notification-icon.svg" alt=""></button>
             </div>
-          
-            <li id="logo5">
-                <img src="/images/notification-icon.svg" alt="image not found">
-            </li>
-            <li id="logo6">
-                <img src="/images/profile.png" alt="image not found">
-            </li>
-            <li id="logo7">
-                John Doe
-            </li>
-            <li id="logo8">
-                <img src="/images/downward-arrow.svg" alt="image not found">
-            </li>
-        </ul>
-       </nav>
+       
+            <div class="profile">
+              <img src="/images/profile.png" alt="">
+            </div>
+            <div class="username">John Doe</div>
+            </div>
+            <div class="downarrow">
+              <button><img src="/images/downward-arrow.svg" alt=""></button>
+            </div>
+          </div>
+        </nav>
+      </header>
+      
     </div>
     <div class="mainDashboardPage">
         
@@ -165,59 +167,24 @@
        </div>
 
     <div class="mainSection">
-        <div class="saleSection">
-
-            <div class="salegraph">
-                <div class="titlebarofgraph">
-                   <div class="navofsalegraph">
-                        <h2 style="font-weight: bold;">Sale</h2>  
-                    </div>
-                    <div class="navitemsofgraph">
-                        <button class="mybtn">Weekly</button>
-                        <button class="mybtn">Monthly</button>
-                        <button class="mybtn" id="yearly">Yearly</button>
-                    </div>
-                </div>
-                <div class="datagraphimg">
-                    <img src="/images/data-graph.png" alt="">
-                </div>
-            </div>   
-         
-            
-            <div class="salebycountry">
-            <h2>Sales by country</h2>
-            <div class="piechartimg">
-                <img src="/images/pie-chart.svg" alt="">
+      
+          <div class="div-2li">
+            <div class="div-2li-div1">
+                <div class="div-2li-p"><p class="div-2li-innerp1">Sale</p><p class="div-2li-innerp2"><span>Weekly</span><span>Monthely</span><span class="div-2li-active-span">Yearly</span></p></div>
+                <img src="/images/data-graph.png" alt="data-graph">
             </div>
-            <ul>
-              <div class="rowcontainer">
-                <div class="firstrow">
-
-                  <div class="item">
-                 <div class="usa-circle"></div>
-                   <li>united state of america</li>
-                  </div>
-
-                  <div class="item">
-                   <div class="russia-circle"></div>
-                 <li>Russia</li>
+            <div class="div-2li-div2">
+                <span class="div-2li-span">Sales by Country</span>
+                <img src="/images/pie-chart.svg" alt="pie-chart">
+                <div class="pi-col-flex pi-col-spacebet" >
+                    <span class="pi-col-flex pi-col-span"><div class="pi-col-1 pi-col"></div><p class="pi-col-p">United States of America</p></span>
+                    <span class="pi-col-flex pi-col-span"><div class="pi-col-2 pi-col"></div><p class="pi-col-p">Canada</p></span>
+                    </div><div class="pi-col-flex pi-col-spacebet">
+                    <span class="pi-col-flex pi-col-span"><div class="pi-col-3 pi-col"></div><p class="pi-col-p">Russia</p></span>
+                    <span class="pi-col-flex pi-col-span"><div class="pi-col-4 pi-col"></div><p class="pi-col-p">India</p></span>
                 </div>
-                </div>
-                <div class="secondrow">
-                  <div class="item">
-                  <div class="canada-circle"></div>
-                  <li>Canada</li>
-                </div>
-                  <div class="item">
-                  <div class="india-circle"></div>
-                  <li>India</li>
-                </div>
-                </div>
-              </div>
-          </ul>
             </div>
-  
-          
+        </div>
             
         </div>
      <div class="invoicesSection">
@@ -353,6 +320,6 @@
     
 </div>
     
-    
+    </div>
 </body>
 </html>

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/innerpage.css">
      <link rel="stylesheet" href="/css/bootstrap.min.css"> 
 </head>
-<body>
+<body class="bodywidth">
     <div class="header">
         <header>
         
@@ -18,7 +18,7 @@
                 <img src="/images/header-logo.svg" alt="">
               </div>
     
-              <div class="searchbar">
+              <div class="searchbar flex-fill">
                 <img src="/images/search-icon.svg" alt="">
                 <form>
                   <input type="search" class="search" placeholder="search">
@@ -93,8 +93,9 @@
         <h2>Analysis
         </h2>
      </div>
+     <h3>One Column</h3>
         <div class="row">
-            <p>One Column</p>
+           
             <div class="col-12 firstcolumn">
               <input type="text" class="name" placeholder="Name">
             </div>
@@ -109,9 +110,9 @@
           </div>
         </div>
 
-
+        <h3>Two Column</h3>
         <div class="twocolumn">
-         <p>Two Column</p>
+         
         <div class="row">
             <div class="col-12 col-sm-6 secondcolumn" id="firstipbox">
                 <input type="text" name="name" id="name" placeholder="Name">
@@ -132,20 +133,20 @@
         
         </div>
 
-
+        <h3>Three Column</h3>
         <div class="threecolumn">
-            <p>Three Column</p>
+            
 
             <div class="row">
 
-                <div class="col-12 col-sm-6 col-md-4 threecolumn" id="firstipbox">
+                <div class="col-12 col-sm-6 col-md-4 thirdcolumn" id="firstipbox">
                     <input type="text" name="name" id="name" placeholder="Name">
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 threecolumn" id="secondipbox">
+                <div class="col-12 col-sm-6 col-md-4 thirdcolumn" id="secondipbox">
                 
                     <input type="password" name="password" id="password" placeholder="Password">
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 threecolumn" id="thirdipbox">
+                <div class="col-12 col-sm-6 col-md-4 thirdcolumn" id="thirdipbox">
                     <input type="text" name="name" id="name" placeholder="Name">
                 </div>
 
@@ -153,9 +154,9 @@
 
         </div>
 
-
+        <h3>Four Column</h3>
         <div class="fourcolumn">
-            <p>Four Column</p>
+            
 
             <div class="row">
                 
@@ -172,7 +173,7 @@
                     <input type="text" name="name" id="name" placeholder="Name">
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 fourcolumn" id="fourthipbox">
-                    <select class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <select>
                         <option>Select</option>
                       </select>
                 </div>
@@ -198,49 +199,74 @@
 
         </div>
 
-
+        <h3>Radio Button</h3>
         <div class="radiobtn">
-            <p>Radio Button</p>
-
-            <input type="radio" name="option1" id="option1"><lable>Option1</lable>
-            <input type="radio" name="option2" id="option2"><label>Option2</label>
+            
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="radio-btn" id="radio-btn1">
+                <label class="form-check-label" for="radio-btn1">
+                  Option 1
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="radio-btn" id="radio-btn1">
+                <label class="form-check-label" for="radio-btn1">
+                  Option 2
+                </label>
+              </div>
     
         </div>
 
-
+        <h3>Checkbox</h3>
         <div class="checkbox">
-            <p>Checkbox</p>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="checkbox" id="chk-1">
+                <label class="form-check-label" for="chk-1">
+                  Option 1
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="checkbox" id="chk-1">
+                <label class="form-check-label" for="chk-1">
+                  Option 2
+                </label>
+              </div>
+    
 
-            <input type="checkbox" name="option1" id="Option1"><label>Option1</label>
-            <input type="checkbox" name="checkbox" id="Option2"><label>Option2</label>
-        </div>
-
-
-        <div class="snackbarContainer">
-
-            <h2>snackbar</h2>
-            <div class="row snackbarwraper">
-
-                <div class="col-12 col-sm-6 snackbar">
-                    <img src="/images/error-icon.svg" alt="">
-                    <p style="color: #FF3535;">This is an error message</p>
-                </div>
-                <div class="col-12 col-sm-6 snackbar">
-                    <img src="/images/info-icon.svg" alt="">
-                    <p style="color: #00B9E1;">This is an information message</p>
-                </div>
-                <div class="col-12 col-sm-6 snackbar">
-                    <img src="/images/warning-icon.svg" alt="">
-                    <p style="color: #FFA800;">This is a warning message</p>
-                </div>
-                <div class="col-12 col-sm-6 snackbar">
-                    <img src="/images/success-icon.svg" alt="">
-                    <p style="color: #00AF27;">This is a success message</p>
-                </div>
            
         </div>
-       
-        </div>
+
+        <section class="snackbars">
+            <h3>Snackbar</h3>
+
+            <div class="row">
+              <div class="col-12 col-lg-6 controls">
+                <div class="snackbar error">
+                  <img src="/images/error-icon.svg" alt="">
+                  <p class="message">This is an error message!</p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6 controls">
+                <div class="snackbar warning">
+                  <img src="/images/warning-icon.svg" alt="">
+                  <p class="message">This is a warning message!</p>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-6 controls">
+                <div class="snackbar info">
+                  <img src="/images/info-icon.svg" alt="">
+                  <p class="message">This is an information message!</p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6 controls">
+                <div class="snackbar success">
+                  <img src="/images/success-icon.svg" alt="">
+                  <p class="message">This is a success message!</p>
+                </div>
+              </div>
+            </div>
+          </section>
 
         <div class="calltoaction">
             <p>Call to Action</p>

@@ -1,14 +1,12 @@
-.header{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    
-    
+body{
+  font-size: 10px;
+}
+.bodywidth{
+  width: 100%;
 }
 .navbar{
   display: flex;
-  width: 1560px;
-  position: relative;
+  width: 100%;
   
 }
 .menubar{
@@ -18,9 +16,6 @@
   padding: 9px;
   
 }
-
-
-
 .searchbar{
   display: flex;
   padding-left: 50px;
@@ -68,6 +63,10 @@
   border-style: none;
   
 }
+
+
+
+
 
   
   .mainDashboardPage{
@@ -197,8 +196,42 @@ font-size: 30px;
 margin-top: 35px;
 
 }
-.div-2li{
+.maintitleContainer{
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+  margin-top: 3rem;
+  align-items: stretch;
+}
+.itemslist-5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 2rem 2.5rem;
+  border-radius: 10px;
+
+}
+.li5-img{
+  width: 4rem;
+  margin: 0.8rem;
+}
+
+.li5-text-1{
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0.8rem;
+  letter-spacing: 2px;
+}   
+
+.li5-text-2{
+  font-size: 1.5rem;
+  padding: 0.8rem;
+}
+.div-2li{
+  width:100%;
   margin-top: 3rem;
   display: flex;
   justify-content: space-between;
@@ -294,7 +327,7 @@ margin-top: 35px;
 .maintitleContainer{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: auto;
     justify-content: space-between;
 }
 .titleContainer{
@@ -397,10 +430,7 @@ padding-top: 17px;
 
   
 }
-/*.firstrow{
-  margin: 36px;
-  padding: 5px;
-}*/
+
 .secondrow{
   margin: 5px;
   padding: 5px;
@@ -545,12 +575,28 @@ th,td{
 
 /*  Media query  */
 
-@media(max-width:900px){
-  .maintitleContainer{
-    display: flex;
-    flex-wrap: wrap;
+@media(max-width:1500px){
+  .menubar img{
     
+    height: 49px;
+    width: 100px;
   }
+  
+  .downarrow img{
+    height: 49px;
+    width: 100px;
+  }
+  .maintitleContainer{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+
+  }
+
+.itemlist-5{
+    width: 20rem;
+    margin-bottom: 1.5rem;
+}
   .div-2li-div1 img{
     width: 100%;
   }
@@ -566,76 +612,77 @@ th,td{
     float: none;
   }
   .div-2li-div2{
-    display: block;
-    width: 100%;
     display: flex;
     flex-direction: column;
+    width: 100%;
     float: none;
 
   }
   .div-2li-div2 img{
-    width: 10%;
-    display: block;
-    margin: auto;
+    width: 30%;
+    margin: 10px auto;
+  }
+  .pi-col-p{
+    font-size: 45px;
   }
   .invoicesSection{
     display: block;
+    width: 118%;
+    
+    margin-top:30rem;
+  }
+  .table{
+    display: block;
+    width: 118%;
   }
 
-  .invoicesSection th, .invoicesSection td{
-    font-size: 10px;
-  }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 874px){
 
-    .navbarbtn{
-      display: none;
-    }
-    .navbarbtn .downarrow{
-      display: block;
-      position: relative;
+   
+  .navbarbtn{
+    display: none;
+  }
+  .navbarbtn .downarrow{
+    display: block;
+    position: relative;
+  
+  }
+  .menubar img{
     
+    height: 49px;
+    width: 100px;
+  }
+  
+  
+  .downarrow img{
+    height: 49px;
+    width: 100px;
+  }
+
+    .mainDashboardPage{
+      display: flex;
+      flex-direction: row;
     }
-    .navbar{
-      height: 100px;
-    }
-    .menubar img{
-      height: 100px;
-      width: 383px;
-    }
-    
-    .searchbar{
-      display: none;
-    }
-    .downarrow img{
-      height: 100px;
-      width: 200px;
-    }
-    .sidebar{
-      display: none;
-    }
-    .dashboard{
+    .mainDashboardPage .dashboard{
       display: flex;
       flex-direction: column;
       justify-content: center;
-      margin-top: 205px;
+      margin-top: 200px;
     }
     .dashboardHeader{
       display: flex;
       justify-content: center;
       
     }
-    .dashboardHeader p{
-      font-size: 90px;
-      margin-top: 600px;
-    }
+    
     .maintitleContainer{
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
-      margin-top:100px;
+      margin-top:50%;
       
       
       
@@ -683,34 +730,123 @@ th,td{
 
 
 
-@media only screen and (min-width:600px)  and (max-width: 767px){
-  body{
+@media only screen and (max-width: 656px){
+  .sidebar{
+    display: none;
+  }
+ .searchbar{
+  display: none;
+ }
+  .navbarbtn{
+      display: none;
+    }
+    .navbarbtn .downarrow{
+      display: block;
+      position: relative;
     
+    }
+    .menubar img{
+      
+      height: 60px;
+      width: 150px;
+    }
+    
+    .downarrow img{
+      height: 60px;
+      width: 150px;
+    }
+  
+    
+  
+  .sidebar{
+    display: none;
+  }
+  .mainDashboardPage{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .mainDashboardPage .dashboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 200px;
+  }
+  .dashboardHeader{
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .maintitleContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top:50%;
+    
+    
+    
+  }
+  .titleContainer{
+    padding: 100px;
+  }
+  .titleContainer img{
+    height: 100px;
+    width: 200px;
+    
+  }
+  .titleContainer .bigheader p{
+      font-size: 45px;
+  }
+  .titleContainer .smallheader p{
+     font-size: 35px;
+     padding-top: 50px;
+  }
+  .mainSection{
+    display: flex;
+    flex-direction: column;
+  }
+  .saleSection{
+    display: flex;
+    flex-direction: column;
+    height:816px;
+    width: 100%;
+  }
+  .saleSection .salegraph{
+    height: 200px;
+    width: 100%;
+  }
+  .saleSection .datagraphimg img{
+    width: 100%;
+  }
+  .table{
+    width: 100%;
   }
 }
 
-
-
-@media only screen and (min-width:768px)  and (max-width: 991px){
-  body{
-    
+@media only screen and (max-width: 574px){
+  .sidebar{
+    display: none;
   }
-}
-
-
-
-@media only screen and (min-width:992px)  and (max-width: 1199px){
-  body{
+ 
+  .navbarbtn{
+      display: none;
+    }
+    .navbarbtn .downarrow{
+      display: block;
+      position: relative;
     
-  }
-}
-
-
-
-@media only screen and (min-width:1200px)  and (max-width: 1720px){
-  body{
+    }
+    .menubar img{
+      
+      height: 60px;
+      width: 150px;
+    }
     
-  }
+    .downarrow img{
+      height: 60px;
+      width: 150px;
+    }
 }
-
 

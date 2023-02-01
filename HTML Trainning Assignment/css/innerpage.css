@@ -1,23 +1,18 @@
+body{
+  font-size: 10px;
+}
+.bodywidth{
+  width: 100%;
+}
 
-.Analysispage{
-    top: 0px;
-    left: 0px;
-    width: 1560px;
-    height: 1970px;
-    background: #FAFAFA 0% 0% no-repeat padding-box;
-    opacity: 1;
+
+input, select {
+  width: 100%;
 }
-.header{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    
-    
-}
+
 .navbar{
   display: flex;
-  width: 1560px;
-  position: relative;
+  width: 100%;
   
 }
 .menubar{
@@ -78,7 +73,10 @@
   
 }
 
-  
+
+  .Analysispage{
+    width: 100%;
+  }
 .analysispagetitle h2{
 font-size: 30px;
 font-weight: bold;
@@ -87,23 +85,7 @@ margin-top: 42.29px;
 .onecolumn{
     padding: 5px;
 }
-.onecolumn p{
-    top: 205px;
-left: 321px;
-width: 150px;
-height: 29px;
-/* UI Properties */
-text-align: left;
-font: normal normal medium 22px/29px Roboto;
-letter-spacing: 0px;
-color: #3E3E3E;
-opacity: 1;
-font-size: 22px;
-margin-top: 50px;
-padding: 5px;
-font-weight: bold;
 
-}
 .nameinput{
     padding: 10px;
 }
@@ -113,30 +95,10 @@ font-weight: bold;
 .multilineinput{
     padding: 10px;
 }
-.nameinput input{
-    top: 249px;
-left: 323px;
-width: 1157px;
-height: 49px;
-/* UI Properties */
-border: 1px solid #ADADAD;
-border-radius: 5px;
-opacity: 1;
 
-}
-.dropdown select{
-    top: 319px;
-left: 323px;
-width: 1164px;
-height: 49px;
-/* UI Properties */
-border: 1px solid #ADADAD;
-border-radius: 5px;
-opacity: 1;
-padding: 1px;
-}
 .mainDashboardPage{
     display: flex;
+    width: 100%;
     flex-direction: row;
   }
   .sidebar{
@@ -237,9 +199,8 @@ margin: 5px 5px;
 }
   
 .multilineinput textarea{
-    top: 388px;
-left: 323px;
-width: 1157px;
+   
+width: 100%;
 height: 130px;
 /* UI Properties */
 border: 1px solid #ADADAD;
@@ -248,43 +209,42 @@ opacity: 1;
 }
 .row .firstcolumn input,.row .firstcolumn select,.row .firstcolumn textarea{
   border-style: none;
-  width: 1157px;
+  width: 100%;
 height: 49px;
 /* UI Properties */
 border: 1px solid #ADADAD;
 border-radius: 5px;
 }
 .row .secondcolumn input,.row .secondcolumn select{
-  width: 563px;
-height: 49px;
+
+  height: 49px;
 /* UI Properties */
-border: 1px solid #ADADAD;
-border-radius: 5px;
-}
-.row .threecolumn input,.row .threecolumn select{
-  width: 364px;
-  height: 47px;
-  /* UI Properties */
-  border: 1px solid #C8242F;
+  border: 1px solid #ADADAD;
   border-radius: 5px;
 }
+.row .thirdcolumn input,.row .thirdcolumn select{
+  height: 47px;
+  border: 1px solid #ADADAD;
+  border-radius: 5px;
+}
+
 .row .fourcolumn input,.row .fourcolumn select{
-  width: 266px;
+  
   height: 47px;
+  border: 1px solid #ADADAD;
   /* UI Properties */
-  border: 1px solid #FF3C3C;
   border-radius: 5px;
 }
-.firstcolumn,.secondcolumn,.threecolumn,.fourcolumn{
+.firstcolumn,.secondcolumn,.thirdcolumn,.fourcolumn{
   padding: 5px;
 }
 .snackbar{
   display: flex;
-  width: 563px;
+ width: 100%;
 height: 44px;
 border: 1px solid #FF3535;
 border-radius: 5px;
-padding: 7px;
+
 }
 
 .snackbar img{
@@ -302,209 +262,19 @@ padding: 7px;
 
 .row select{
   border-style: none;
-  width: 563px;
 height: 49px;
 /* UI Properties */
 border: 1px solid #ADADAD;
 border-radius: 5px;
 }
 
-.twocolumn p{
-    top: 205px;
-left: 321px;
-width: 150px;
-height: 29px;
-/* UI Properties */
-text-align: left;
-font: normal normal medium 22px/29px Roboto;
-letter-spacing: 0px;
-color: #3E3E3E;
-opacity: 1;
-font-size: 22px;
-margin-top: 50px;
-padding: 5px;
-font-weight: bold;
 
-}
-
-.twocolumncontainer{
-
-    height: 118px;
-    width: 1157px;
-    display: grid;
-    grid-template-columns: 588px 700px;
-    row-gap: 19px;
-    
-    
-
-}
-.twocolumncontainer input{
-    top: 607px;
-left: 323px;
-width: 563px;
-height: 49px;
-/* UI Properties */
-border: 1px solid #ADADAD;
-border-radius: 5px;
-opacity: 1;
-}
-.twocolumncontainer select{
-    top: 607px;
-    left: 323px;
-    width: 563px;
-    height: 49px;
-    /* UI Properties */
-    border: 1px solid #ADADAD;
-    border-radius: 5px;
-    opacity: 1;
-}
-
-
-.threecolumn p{
-    top: 205px;
-left: 321px;
-width: 150px;
-height: 29px;
-/* UI Properties */
-text-align: left;
-font: normal normal medium 22px/29px Roboto;
-letter-spacing: 0px;
-color: #3E3E3E;
-opacity: 1;
-font-size: 22px;
-margin-top: 50px;
-padding: 5px;
-font-weight: bold;
-
-}
-
-.threecolumncontainer{
-
-    height: 49px;
-    width: 1157px;
-    display: grid;
-    grid-template-columns: 400px 400px 400px;
-    row-gap: 19px;
-
-}
-
-.threecolumncontainer #firstipbox input{
-    top: 816px;
-left: 323px;
-width: 364px;
-height: 47px;
-/* UI Properties */
-border: 1px solid #C8242F;
-border-radius: 5px;
-opacity: 1;
-}
-.threecolumncontainer input{
-    top: 814px;
-left: 719px;
-width: 365px;
-height: 49px;
-/* UI Properties */
-border: 1px solid #ADADAD;
-border-radius: 5px;
-opacity: 1;
-}
-
-.fourcolumncontainer{
-    height: 49px;
-    width: 1157px;
-    display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
-    row-gap: 19px;
-}
 
 #firstipbox lable{
     position: relative;
     
     top: -59px;
     color: #120202;
-}
-.fourcolumn p{
-    top: 205px;
-left: 321px;
-width: 150px;
-height: 29px;
-/* UI Properties */
-text-align: left;
-font: normal normal medium 22px/29px Roboto;
-letter-spacing: 0px;
-color: #3E3E3E;
-opacity: 1;
-font-size: 22px;
-margin-top: 50px;
-padding: 5px;
-font-weight: bold;
-
-}
-
-
-.fourcolumncontainer #fourthipbox select{
-    top: 957px;
-    left: 620px;
-    width: 266px;
-    height: 49px;
-    /* UI Properties */
-    border: 1px solid #ADADAD;
-    border-radius: 5px;
-    opacity: 1;
-}
-.fourcolumncontainer #firstipbox input{
-    top: 959px;
-left: 323px;
-width: 266px;
-height: 47px;
-/* UI Properties */
-border: 1px solid #FF3C3C;
-border-radius: 5px;
-opacity: 1;
-}
-.fourcolumncontainer input{
-    top: 957px;
-left: 620px;
-width: 266px;
-height: 49px;
-/* UI Properties */
-border: 1px solid #ADADAD;
-border-radius: 5px;
-opacity: 1;
-}
-
-
-.otherelement p{
-    margin-top: 15px;
-    top: 1075px;
-    left: 321px;
-    width: 250px;
-    height: 29px;
-    /* UI Properties */
-    text-align: left;
-    font: normal normal medium 22px/29px Roboto;
-    letter-spacing: 0px;
-    color: #3E3E3E;
-    opacity: 1;
-    font-size: 22px;    
-    font-weight: bold;
-
-}
-
-.otherelement p2{
-    
-    top: 1125px;
-left: 321px;
-width: 90px;
-height: 24px;
-/* UI Properties */
-text-align: left;
-font: normal normal medium 18px/24px Roboto;
-letter-spacing: 0px;
-color: #3E3E3E;
-opacity: 1;
-font-size: 18px;
-font-weight: bold;
 }
 
 .uploadbtn{
@@ -522,8 +292,7 @@ font-weight: bold;
     background-color: transparent;
     border-style: none;
     border: 1px solid #C8242F;
-    top: 1165px;
-left: 322px;
+  
 width: 124px;
 height: 36px;
 /* UI Properties */
@@ -539,113 +308,74 @@ opacity: 1;
     
 }
 
-.radiobtn p{
-    margin-top: 15px;
-    top: 1237px;
-left: 321px;
-width: 150px;
-height: 24px;
-/* UI Properties */
-text-align: left;
-font: normal normal medium 18px/24px Roboto;
-letter-spacing: 0px;
-color: #3E3E3E;
-opacity: 1;
-font-size: 18px;
-font-weight: bold;
+.radiobtn{
+  display: flex;
+  flex-direction: column;
+}
+.checkbox{
+  display: flex;
+  flex-direction: column;
+}
+section.snackbars .col.controls {
+    row-gap: 25px;
+}
+.controls{
+  padding: 10px;
 }
 
-.checkbox p{
-    margin-top: 15px;
-    top: 1325px;
-left: 321px;
-width: 79px;
-height: 24px;
-/* UI Properties */
-text-align: left;
-font: normal normal medium 18px/24px Roboto;
-letter-spacing: 0px;
-color: #3E3E3E;
-opacity: 1;
-font-size: 18px;
-font-weight: bold;
-}
-
-.snackbarcontainer {
-    margin-top: 15px;
-    display: grid;
-    height: 118px;
-    width: 1157px;
-    grid-template-columns: 588px 700px;
-    row-gap: 19px;
-}
-
-.snackbar h2{
-    top: 1416px;
-left: 321px;
-width: 76px;
-height: 24px;
-/* UI Properties */
-text-align: left;
-font: normal normal medium 18px/24px Roboto;
-letter-spacing: 0px;
-color: #3E3E3E;
-opacity: 1;
-font-size:22px;
-font-weight: bold;
-}
-.snackbar .firstbox{
-height: 49px;
-width: 563px;
-display: flex;
-align-items: center;
-border:1px solid #FF3535;
-margin-left: 5x;
-
-}
-
-.snackbar .secondbox{
-    height: 49px;
-    width: 563px;
+.snackbar {
     display: flex;
     align-items: center;
-    border:1px solid #00B9E1;
-    margin-left: 5x;
-    
-    }
+    padding: 14px 11px;
+    border: 1px solid;
+    border-radius: 5px;
+    column-gap: 10px;
+}
 
-    .snackbar .thirdbox{
-        height: 49px;
-        width: 563px;
-        display: flex;
-        align-items: center;
-        border:1px solid #FFA800;
-        margin-left: 5x;
-        
-        }
+.snackbar img {
+    width: 17px;
+    height: 17px;
+}
 
-        .snackbar .fourthbox{
-            height: 49px;
-            width: 563px;
-            display: flex;
-            align-items: center;
-            border:1px solid #00AF27 ;
-            margin-left: 5x;
-            
-            }
-.firstbox img{
-    height: 20px;
-    margin-left: 5px;
+.snackbar p.message {
+    margin: 0;
+    font-size: 15px;
+    line-height: 20px;
 }
-.secondbox img{
-    height: 20px;
+
+/* Snackbar styles */
+.snackbar.error {
+    border-color: #FF3535;
 }
-.thirdbox img{
-    height: 20px;
+
+.snackbar.error p.message {
+    color: #FF3535;
 }
-.fourthbox img{
-    height: 20px;
+
+.snackbar.info {
+    border-color: #00B9E1;
 }
+
+.snackbar.info p.message {
+    color: #00B9E1;
+}
+
+.snackbar.warning {
+    border-color: #FFA800;
+}
+
+.snackbar.warning p.message {
+    color: #FFA800;
+}
+
+.snackbar.success {
+    border-color: #00AF27;
+}
+
+.snackbar.success p.message {
+    color: #00AF27;
+}
+
 
 .calltoaction p{
     margin-top: 15px;
@@ -722,8 +452,12 @@ font-weight: bold;
     color: #C8242F;
     
 }
+.para{
+  width: 100%;
+}
 .para p{
-    font-size: 15px;
+    font-size: 1.5rem;
+    width: 100%;
 }
 
 
@@ -731,84 +465,112 @@ font-weight: bold;
 
 
 /*  media query  */
+@media only screen and (max-width: 1500px){
+  
 
-@media only screen and (max-width: 600px){
-    .header{
-        width: 100%;
+
+  .menubar img{
+    
+    height: 49px;
+    width: 100px;
+  }
+  
+  .downarrow img{
+    height: 49px;
+    width: 100px;
+  }
+
+ 
+
+}
+@media only screen and (max-width: 874px){
+  .navbarbtn{
+    display: none;
+  }
+  .navbarbtn .downarrow{
+    display: block;
+    position: relative;
+  
+  }
+  .menubar img{
+    
+    height: 49px;
+    width: 100px;
+  }
+  
+  
+  .downarrow img{
+    height: 49px;
+    width: 100px;
+  }
+
+  .Analysispage{
+    margin-left: 10%;
+    margin-right: 20%;
+    display: block;
+    
+  }
+}
+@media only screen and (max-width: 656px){
+    
+  .sidebar{
+    display: none;
+  }
+ .searchbar{
+  display: none;
+ }
+  .navbarbtn{
+      display: none;
     }
-    .navbarbtn{
-        display: none;
-      }
-      .navbarbtn .downarrow{
-        display: block;
-        position: relative;
+    .navbarbtn .downarrow{
+      display: block;
+      position: relative;
+    
+    }
+    .menubar img{
       
-      }
-      .navbar{
-        height: 100px;
-      }
-      .menubar img{
-        
-        height: 100px;
-        width: 383px;
-      }
-      
-      .searchbar{
-        display: none;
-      }
-      .downarrow img{
-        height: 100px;
-        width: 150px;
-      }
+      height: 60px;
+      width: 150px;
+    }
+    
+    .downarrow img{
+      height: 60px;
+      width: 150px;
+    }
+  
+    
+  
+}
+
+
+
+@media only screen and (max-width: 575px){
+    
       .sidebar{
         display: none;
       }
-      .analysispagetitle h2{
-        font-size: 70px;
-      }
-      .twocolumncontainer{
-        display: grid;
-        grid-template-columns: 10px ;
-        height: max-content;
-        width: 100%;
-      }
-      .twocolumncontainer .inputbox input{
-        width: 1157px;
-      }
-      .twocolumncontainer .inputbox select{
-        width: 1157px;
-      }
-      .threecolumncontainer{
-        display: grid;
-        grid-template-columns: 10px;
-        height: max-content;
-        width: 100%;
-      }
-      .threecolumncontainer .inputbox input{
-        width: 1157px;
-      }
-      .fourcolumncontainer {
-        display: grid;
-        grid-template-columns: 10px;
-        height: max-content;
-        width: 100%;
-      }
-      .fourcolumncontainer  input{
-        width: 1157px;
-      }
-      .fourcolumncontainer .inputbox select{
-        width: 1157px;
-      }
-      .snackbarcontainer{
-        display: grid;
-        grid-template-columns: 10px;
-        height: max-content;
-        width: 100%;
-
-      }
-      .snackbarcontainer{
+     
+      .navbarbtn{
+          display: none;
+        }
+        .navbarbtn .downarrow{
+          display: block;
+          position: relative;
         
-      }
+        }
+        .menubar img{
+          
+          height: 60px;
+          width: 150px;
+        }
+        
+        .downarrow img{
+          height: 60px;
+          width: 150px;
+        }
+      
+        
+      
 }
 
 

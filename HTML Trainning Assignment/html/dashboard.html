@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/bootstrap.min.css">   
+       
     <link rel="stylesheet" href="/css/dashboard.css"> 
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
 </head>
 <body>
-  <div class="container-fluid px-0">
+  
     <div class="header">
      <header>
         
@@ -19,7 +20,7 @@
             <img src="/images/header-logo.svg" alt="">
           </div>
 
-          <div class="searchbar">
+          <div class="searchbar flex-fill">
             <img src="/images/search-icon.svg" alt="">
             <form>
               <input type="search" class="search" placeholder="search">
@@ -95,75 +96,45 @@
            <p>Dashboard</p>
         </div>
      <div class="maintitleContainer">
-        <div class="titleContainer">
-             <img src="/images/star.svg" alt="">
-            
-                <div class="bigheader">
-                    
-                    <p class="number">23,456</p>
-                    <div class="smallheader">
-                        <p>New Products</p>
-                       
-                    </div>
-                </div>
-            
-        </div>
 
-        <div class="titleContainer">
-            <img src="/images/new-product.svg" alt="">
-           
-               <div class="bigheader">
-            
-                <p class="number">2345</p>
-                   <div class="smallheader">
-                     
-                      <p> Added products</p>
-                      
-                   </div>
-               </div>
-           
-       </div>
 
-       <div class="titleContainer">
-        <img src="/images/total-product.svg" alt="">
+       <li class="itemslist-5">
+        <img class="li5-img" src="/images/star.svg" alt="star">
+        <span class="span-itemslist"><p class="text1">23,456</p>
+          <p class="text2">New Products</p>
+        </span>
+        </li>
+
+        <li class="itemslist-5">
+          <img class="li5-img" src="/images/new-product.svg" alt="star">
+          <span class="span-itemslist"><p class="text1">2345</p>
+            <p class="text2">Added Products</p>
+          </span>
+          </li>
+
+          <li class="itemslist-5">
+            <img class="li5-img" src="/images/total-product.svg" alt="star">
+            <span class="span-itemslist"><p class="text1">32,456</p>
+              <p class="text2">Total Products</p>
+            </span>
+            </li>
+
+            <li class="itemslist-5">
+              <img class="li5-img" src="/images/dollar-filled.svg" alt="star">
+              <span class="span-itemslist"><p class="text1">5675</p>
+                <p class="text2">Today's Sales</p>
+              </span>
+              </li>
+
+              <li class="itemslist-5">
+                <img class="li5-img" src="/images/money-bag.svg" alt="star">
+                <span class="span-itemslist"><p class="text1">33,5342</p>
+                  <p class="text2">Total sales</p>
+                </span>
+                </li>
+
+
        
-           <div class="bigheader">
-
-           <p class="number">32,456</p>
-               <div class="smallheader">
-                 <p> Total products</p>
-               </div>
-           </div>
-       
-     </div>
-
-     <div class="titleContainer">
-      <img src="/images/dollar-filled.svg" alt="">
-   
-       <div class="bigheader">
-    
-        <p class="number">5678</p>
-           <div class="smallheader">
-              <p>Today's sales</p>
-           </div>
-       </div>
-   
-      </div>
-
-     <div class="titleContainer">
-     <img src="/images/money-bag.svg" alt="">
-   
-      <div class="bigheader">
-    
-         <p class="number">33,5342</p>
-           <div class="smallheader">
-              <p>Total sale</p>
-           </div>
-       </div>
-   
-     </div>
-
-
        </div>
 
     <div class="mainSection">
@@ -192,7 +163,7 @@
             <h2>Invoices</h2>
             <div id="viewallbtn">
             <button>view all</button>
-        </div>
+            </div>
         </div>
         <table class="table">
             <thead>
